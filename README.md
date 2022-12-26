@@ -1,6 +1,6 @@
 # Image to text tool
 
-![alt text](/img/variants.png "Image to text tool")
+![alt text](/img/variants.PNG "Image to text tool")
 
  A Python tool based on OpenCV, Tesseract OCR and spaCy for reading and recognize the text in an image from Windows.
 
