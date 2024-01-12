@@ -35,29 +35,28 @@ Just copy the `itt.py` script located in the dist folder and update the Tesserac
 ```
 import pytesseract as pyt
 
-pyt.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+pyt.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
 ```
 
 ## Getting Started
 
 To use the script we only have to indicate the path of the image that we want to read.
 
-> python itt.py D:\Workspaces\malexandersalazar\tools-python-image-to-text\img\source.jpg
+> python itt.py W:\malexandersalazar\tools-python-image-to-text\raw
 
-You can also set the language as a parameter. For now it only supports English and Spanish.
+You can also set the language as a parameter. For now it only supports English ("en") and Spanish ("es").
 
-> python itt.py D:\Workspaces\malexandersalazar\tools-python-image-to-text\img\source.jpg en
+> python itt.py W:\malexandersalazar\tools-python-image-to-text\raw -l=en
 
 If we want to support more languages we must install the necessary spaCy models and make sure that Tesseract OCR can support them as well.
 
 ## Dependencies
 
-* python (== 3.8.15)
+* python (== 3.11.3)
 * pytesseract (== 0.3.10)
-* cv2 (== 4.6.0)
-* spacy (== 3.4.4)
-* pandas (== 1.5.2)
-* sklearn (== 1.2.0)
+* cv2 (== 4.7.0)
+* spacy (== 3.6.0)
+* pandas (== 2.0.2)
 
 ## License
 
